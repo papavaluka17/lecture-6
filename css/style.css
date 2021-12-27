@@ -1,0 +1,84 @@
+/*section 1*/
+.background{
+    background-image: url(../images/bank.jpg);
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.prisoner{
+	position: absolute;
+	width: 300px;
+	margin-top: 500px;
+	animation: prisoner 14s infinite linear  ;
+}
+
+@keyframes prisoner{
+	0%{
+		left: 150px;
+	}
+
+	100%{
+		left: 1000px;
+	}
+}
+
+
+.helicopter{
+	width: 200px;
+	transform: translate(20px, 100px);
+	position: absolute;
+	animation: helicopter 14s infinite linear ;
+
+}
+
+@keyframes helicopter{
+	0%{
+		left: 0px;
+		top: 100px;
+	}
+
+	100%{
+		left: 1000px;
+		top: 0px;
+	}
+}
+
+
+.helicopter1{
+	width: 200px;
+	transform: translate(-20px, 100px);
+	position: absolute;
+	animation: helicopter1 14s infinite linear ;
+}
+
+@keyframes helicopter1{
+	0%{
+		right: 0px;
+		top: 100px;
+	}
+
+	100%{
+		right: 1000px;
+		top: 0px;
+	}
+}
+
+
+.car{
+	width: 300px;
+	transform: translate(-50px, 590px);
+	position: absolute;
+	animation: car 14s infinite linear ;
+}
+
+@keyframes car{
+	from{
+		left: 0px;
+	}
+	to{
+		left: 750px;
+	}
+}
